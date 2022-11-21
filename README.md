@@ -1,43 +1,43 @@
-	• Download DevExpress for VS here: https://docs.devexpress.com/GeneralInformation/15614/installation/download-the-net-products-installer/download-the-trial-version
-	• Create a new DevExpress ASP.NET Core project
-	• Install DevExpress to use Gantt and all the other functionalities: npm install devextreme@22.1 --save --save-exact
-	• Add dx-gantt-min.css and dx-gantt.min.js to our pages: 
-	    <link href="~/css/devextreme/dx-gantt.css" rel="stylesheet" />
-	    <link href="~/css/devextreme/dx-gantt.min.css" rel="stylesheet" />
-	    
-	    <script src="https://cdn3.devexpress.com/jslib/21.1.5/js/dx-gantt.min.js"></script>
-	    <script src="~/js/devextreme/dx-gantt.js"></script>
-	    <script src="~/js/devextreme/dx-gantt.min.js"></script>
+• Download DevExpress for VS here: https://docs.devexpress.com/GeneralInformation/15614/installation/download-the-net-products-installer/download-the-trial-version<br />
+• Create a new DevExpress ASP.NET Core project<br />
+• Install DevExpress to use Gantt and all the other functionalities: npm install devextreme@22.1 --save --save-exact<br />
+• Add dx-gantt-min.css and dx-gantt.min.js to our pages:
 
+	    <link href="~/css/devextreme/dx-gantt.css" rel="stylesheet" /><br />
+	    <link href="~/css/devextreme/dx-gantt.min.css" rel="stylesheet" /><br />
+	    <script src="https://cdn3.devexpress.com/jslib/21.1.5/js/dx-gantt.min.js"></script><br />
+	    <script src="~/js/devextreme/dx-gantt.js"></script><br />
+	    <script src="~/js/devextreme/dx-gantt.min.js"></script><br />
 
-Model de date:
-Tasks: 
-	• ID, Title, ParentId, Start, End, Progress
-	• Este singurul model de date care este obligatoriu (resources, dependencies si resource assignments sunt optionale)
-	• Astea pot fii proiectele in sine
-	• Pentru a avea un proiect ca si child a unui alt proiect, ParentId = ID unui alt task
-Dependencies:
-	• ID, ProdecessorId, SuccessorId, Type
-	• Dependintele dintre task'uri
-Resource:
-	• ID, Text
-	• Textele pe care le punem in coloana de Progress
-ResourceAssignment:
-	• Leaga Tasks de Resources 
-	• Cand legi in Resource de un Task, titlul si toate datele lui apare pe coloana de Progress
+<br />
+Model de date:<br />
+Tasks: <br />
+	• ID, Title, ParentId, Start, End, Progress <br />
+	• Este singurul model de date care este obligatoriu (resources, dependencies si resource assignments sunt optionale)<br />
+	• Astea pot fii proiectele in sine<br />
+	• Pentru a avea un proiect ca si child a unui alt proiect, ParentId = ID unui alt task<br /><br />
+Dependencies:<br />
+	• ID, ProdecessorId, SuccessorId, Type<br />
+	• Dependintele dintre task'uri<br /><br />
+Resource:<br />
+	• ID, Text<br />
+	• Textele pe care le punem in coloana de Progress<br /><br />
+ResourceAssignment:<br />
+	• Leaga Tasks de Resources <br />
+	• Cand legi in Resource de un Task, titlul si toate datele lui apare pe coloana de Progress<br />
+<br />
 	
 	
-	
-Exemplu 1:
-	• In acest exemplu avem doar Tasks si Dependencies
-	• In coloana de Subject se afla task titlse, cu parents si children.
-	• In ultima coloana vedem titlul care se extinde pe StartDate si EndDate
-	• Sageata dintre Engineering and Final Blueprint si City Permits inseamna ca au un Dependency intre ele
-	• Aici, modelul de date este prezentat in GantData.cs, linia 856 (region Second Example).
+Exemplu 1:<br />
+	• In acest exemplu avem doar Tasks si Dependencies<br />
+	• In coloana de Subject se afla task titlse, cu parents si children.<br />
+	• In ultima coloana vedem titlul care se extinde pe StartDate si EndDate<br />
+	• Sageata dintre Engineering and Final Blueprint si City Permits inseamna ca au un Dependency intre ele<br />
+	• Aici, modelul de date este prezentat in GantData.cs, linia 856 (region Second Example).<br /><br />
 ![alt text](https://github.com/FirasHomsi/PoCGantt/blob/master/wwwroot/images/Example1.PNG?raw=true)
 
-
-Exemplu 2:
-	• In acest exemplu avem doar Tasks, Dependencies, Resource (gri) si Resource Assignment (Ce Rresource e assigned la care Task)
-	• Aici, modelul de date este prezentat in GantData.cs, linia 1048 (region Third Example).
+<br />
+Exemplu 2:<br />
+	• In acest exemplu avem doar Tasks, Dependencies, Resource (gri) si Resource Assignment (Ce Rresource e assigned la care Task)<br />
+	• Aici, modelul de date este prezentat in GantData.cs, linia 1048 (region Third Example).<br /> <br />
 ![alt text](https://github.com/FirasHomsi/PoCGantt/blob/master/wwwroot/images/Example2.PNG?raw=true)
