@@ -853,7 +853,7 @@
         };
       #endregion
 
-      // This example si used without .Resource and .ResourceAssignments
+      // Acest exemplu foloseste doar Task.cs si Dependency.cs, fara .Resource and .ResourceAssignments
       #region Second Example
       public static readonly IEnumerable<Task> GanttTasksJohnsonResidence = new[] {
             new Task {

@@ -17,6 +17,10 @@
     <PackageReference Include="BuildBundlerMinifier" Version="2.9.406" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="wwwroot\images\" />
+    </ItemGroup>
+
     <ProjectExtensions><VisualStudio><UserProperties TemplateFeatures="NETCORE" /></VisualStudio></ProjectExtensions>
 
 </Project>
