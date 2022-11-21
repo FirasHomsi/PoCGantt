@@ -29,18 +29,15 @@ ResourceAssignment:
 	
 	
 Exemplu 1:
-
-
-
 	• In acest exemplu avem doar Tasks si Dependencies
 	• In coloana de Subject se afla task titlse, cu parents si children.
 	• In ultima coloana vedem titlul care se extinde pe StartDate si EndDate
 	• Sageata dintre Engineering and Final Blueprint si City Permits inseamna ca au un Dependency intre ele
 	• Aici, modelul de date este prezentat in GantData.cs, linia 856 (region Second Example).
+![alt text](https://github.com/FirasHomsi/PoCGantt/blob/master/wwwroot/images/Example1.PNG?raw=true)
 
 
 Exemplu 2:
-
 	• In acest exemplu avem doar Tasks, Dependencies, Resource (gri) si Resource Assignment (Ce Rresource e assigned la care Task)
 	• Aici, modelul de date este prezentat in GantData.cs, linia 1048 (region Third Example).
-![image](https://user-images.githubusercontent.com/12671922/203118301-16828ad7-23ff-42fd-a23a-c30854164983.png)
+![alt text](https://github.com/FirasHomsi/PoCGantt/blob/master/wwwroot/images/Example2.PNG?raw=true)
