@@ -20,7 +20,7 @@ Dependencies:
 	• ID, ProdecessorId, SuccessorId, Type
 	• Dependintele dintre task'uri
 Resource:
-	• 
+	• ID, Text
 	• Textele pe care le punem in coloana de Progress
 ResourceAssignment:
 	• Leaga Tasks de Resources 
