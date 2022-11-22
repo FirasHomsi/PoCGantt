@@ -33,7 +33,8 @@ Exemplu 1:<br />
 	• In coloana de Subject se afla task titlse, cu parents si children.<br />
 	• In ultima coloana vedem titlul care se extinde pe StartDate si EndDate<br />
 	• Sageata dintre Engineering and Final Blueprint si City Permits inseamna ca au un Dependency intre ele<br />
-	• Aici, modelul de date este prezentat in GantData.cs, linia 856 (region Second Example).<br /><br />
+	• Aici, modelul de date este prezentat in GantData.cs, linia 856 (region Second Example).<br />
+	https://github.com/FirasHomsi/PoCGantt/blob/76ba5d8f259cf977baec080df8f6f21e404ccb10/Models/Gantt/GantData.cs#L857<br /><br />
 ![alt text](https://github.com/FirasHomsi/PoCGantt/blob/master/wwwroot/images/Example1.PNG?raw=true)
 
 <br />
