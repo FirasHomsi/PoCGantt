@@ -1,7 +1,7 @@
 • Download DevExpress for VS here: https://docs.devexpress.com/GeneralInformation/15614/installation/download-the-net-products-installer/download-the-trial-version<br />
 • Create a new DevExpress ASP.NET Core project<br />
 • Install DevExpress to use Gantt and all the other functionalities: npm install devextreme@22.1 --save --save-exact<br />
-• Add dx-gantt-min.css and dx-gantt.min.js to our pages:
+• Add dx-gantt-min.css and dx-gantt.min.js to our pages (_Layout.cshtml in my case):
 
 	    <link href="~/css/devextreme/dx-gantt.css" rel="stylesheet" /><br />
 	    <link href="~/css/devextreme/dx-gantt.min.css" rel="stylesheet" /><br />
