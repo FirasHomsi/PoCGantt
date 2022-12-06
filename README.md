@@ -30,7 +30,7 @@ ResourceAssignment:<br />
 	
 Exemplu 1:<br />
 	• In acest exemplu avem doar Tasks si Dependencies<br />
-	• In coloana de Subject se afla task titlse, cu parents si children.<br />
+	• In coloana de Subject se afla task titse, cu parents si children.<br />
 	• In ultima coloana vedem titlul care se extinde pe StartDate si EndDate<br />
 	• Sageata dintre Engineering and Final Blueprint si City Permits inseamna ca au un Dependency intre ele<br />
 	• Aici, modelul de date este prezentat in GantData.cs, linia 856 (region Second Example).<br />
