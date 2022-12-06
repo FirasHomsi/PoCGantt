@@ -39,7 +39,7 @@ Exemplu 1:<br />
 
 <br />
 Exemplu 2:<br />
-	• In acest exemplu avem doar Tasks, Dependencies, Resource (gri) si Resource Assignment (Ce Rresource e assigned la care Task)<br />
+	• In acest exemplu avem Tasks, Dependencies, Resource (gri) si Resource Assignment (Ce Rresource e assigned la care Task)<br />
 	• Aici, modelul de date este prezentat in GantData.cs, linia 1048 (region Third Example).<br />
 	https://github.com/FirasHomsi/PoCGantt/blob/76ba5d8f259cf977baec080df8f6f21e404ccb10/Models/Gantt/GantData.cs#L1048  <br /> <br />
 	
